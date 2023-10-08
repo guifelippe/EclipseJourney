@@ -31,7 +31,7 @@ function Content(){
                 </p></div>
                 <img src={bimo} alt="Bimo"/>
             </section>
-            <section className="section-about">
+            <section className="section-about" id="About">
                 <h2>About Eclipse</h2>
                 <img src={bimo} alt="Bimo"/>
                 <p>Certainly! Here, we unlock the secrets of eclipses and reveal how the celestial dance happens. Eclipses are captivating events that occur when 
@@ -42,7 +42,7 @@ function Content(){
                     to witness the grandeur of the cosmos and comprehend the celestial movements that shape our universe
                 </p>
             </section>
-            <section className="section-phases">
+            <section className="section-phases" id="Phases">
                 <h2>Eclipse Phases</h2>
                 <img src={bimo} alt="Bimo"/>
                 <p>Prepare to immerse yourself in the fascinating world of eclipses - it's like a celestial party in the sky!
@@ -57,7 +57,7 @@ function Content(){
                     Diamond Ring Effect: Just before and after totality, a stunning burst of sunlight appears, resembling a dazzling diamond ring. It's 
                     a mesmerizing sight.</p>
             </section>
-            <section className="section-magic">
+            <section className="section-magic" id="Magic">
                 <h2>Magic Equipment</h2>
                 <img src={bimo} alt="Bimo"/>
                 <p>Eclipse observation is a captivating hobby that allows you to witness awe-inspiring celestial events. With the right equipment in hand, 
@@ -70,7 +70,7 @@ function Content(){
                     assists in tracking eclipse phases, helping you plan your observation and make the most of this rare celestial phenomenon.
                 </p>
             </section>
-            <section className="section-creators">
+            <section className="section-creators" id="Creators">
                 <div className="section-creator">
                     <h2>About the Creators</h2>
                     <div className="creators">
