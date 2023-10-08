@@ -123,16 +123,25 @@ section p {
 .section-bimo 
 {
   position: relative;
+  background-color: darkslateblue;
+  display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+}
+
+.section-bimo h2
+{
+  width: 25%;
+  color: #80bde3;
 }
 
 .section-bimo .balloon
 {
   width: 800px;
-  height: 200px;
+  height: auto;
   border-radius: 25px;
-  margin-left: 700px;
+  margin-left: 25%;
+  margin-bottom: 5%;
   background-color: white;
 }
 
@@ -141,12 +150,18 @@ section p {
   content: "";
   width: 0;
   height: 0;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  border-top: 20px solid #FFF;
-  margin-left: 418px;
-  bottom: 200px;
-  left: 20%;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #FFF;
+  position: absolute;
+  top: 45%;
+  left: 76%;
+  margin-top: -20px;
+}
+
+.section-bimo .balloon p
+{
+  font-weight: bold;
 }
 
 .section-bimo img 
@@ -204,6 +219,7 @@ section p {
   height: auto;
   background-color: #6f42c1;
   justify-content: flex-end;
+  flex-wrap: wrap;
   margin-top: 8%;
 }
 
@@ -228,6 +244,28 @@ section p {
   left: 0;
   color: white;
   width: 50%;
+}
+
+.eclipses-phases {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+
+.section-phases .eclipses-phases .lunar-eclipse a .img-lunar
+{
+  margin-top: 50px;
+  width: 600px;
+  height: 300px;
+}
+
+.section-phases .eclipses-phases .solar-eclipse a .img-solar
+{
+  margin-top: 50px;
+  width: 650px;
+  height: 250px;
 }
 
 .section-magic
@@ -266,6 +304,13 @@ section p {
   color: white;
 }
 
+.section-magic .equipaments
+{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .section-creator
 {
   position: relative;
@@ -296,14 +341,31 @@ section p {
   font-family: 'Times New Roman', Times, serif
 }
 
+.section-creator .creators-text
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 2%;
+  padding-top: 2%;
+}
+
+.section-creator .creators-text .cotuca-logo
+{
+  width: 10%;
+  height: 10%;
+}
+
+.section-creator .creators-text .team-logo
+{
+  width: 15%;
+  height: 15%;
+}
+
 .section-creator .creators-text p
 {
   text-align: center;
   color: #000;
   font-size: 18px;
   width: 50%;
-  padding-bottom: 2%;
-  padding-top: 2%;
-  margin-left: 25%;
 }
-

@@ -4,6 +4,16 @@ import bimo from '../images/Bimo.png'
 import gui from '../images/gui.png'
 import alice from '../images/alice.png'
 import joao from '../images/joao.png'
+import virginia from '../images/virginia.png'
+import angelina from '../images/angelina.png'
+import team from '../images/team.png'
+import lunar_eclipse from '../images/lunar_eclipse.jpg'
+import solar_eclipse from '../images/solar_eclipse.jpg'
+import solar_glasses from '../images/solar_glasses.jpg'
+import binoculars from '../images/binoculars.jpg'
+import tripod from '../images/tripod.jpg'
+import camera from '../images/camera.jpg'
+import cotuca from '../images/COTUCA_logo.png'
 
 function Content(){
     return(
@@ -56,6 +66,20 @@ function Content(){
                     Day turns to night briefly, offering a breathtaking spectacle.
                     Diamond Ring Effect: Just before and after totality, a stunning burst of sunlight appears, resembling a dazzling diamond ring. It's 
                     a mesmerizing sight.</p>
+                <div className="eclipses-phases">
+                    <div className="lunar-eclipse">
+                        <a href="https://images.nasa.gov/search?q=lunar%20eclipse&page=1&media=image,video,audio&yearStart=1920&yearEnd=2023">
+                            <img src={lunar_eclipse} className="img-lunar" alt="Lunar Eclipse"/>
+                        </a>
+                        <p>Lunar Eclipse Phases</p>
+                    </div>
+                    <div className="solar-eclipse">
+                        <a href="https://images.nasa.gov/search?q=solar%20eclipse&page=1&media=image,video,audio&yearStart=1920&yearEnd=2023">
+                            <img src={solar_eclipse} className="img-solar" alt="Solar Eclipse"/>
+                        </a>
+                        <p>Solar Eclipse Phases</p>
+                    </div>
+                </div>
             </section>
             <section className="section-magic" id="Magic">
                 <h2>Magic Equipment</h2>
@@ -69,6 +93,24 @@ function Content(){
                     Using a tripod ensures a steady view and minimizes shake, particularly during extended eclipse events. A solar-viewing guide or smartphone app 
                     assists in tracking eclipse phases, helping you plan your observation and make the most of this rare celestial phenomenon.
                 </p>
+                <div className="equipaments">
+                    <div className="solar-glasses">
+                        <img src={solar_glasses} alt="Solar Eclipse Glasses"/>
+                        <p></p>
+                    </div>
+                    <div className="binoculars">
+                        <p></p>
+                        <img src={binoculars} alt="Binoculars"/>
+                    </div>
+                    <div className="tripod">
+                        <img src={tripod} alt="Tripod"/>
+                        <p></p>
+                    </div>
+                    <div className="camera">
+                        <p></p>
+                        <img src={camera} alt="Camera"/>
+                    </div>
+                </div>
             </section>
             <section className="section-creators" id="Creators">
                 <div className="section-creator">
@@ -78,6 +120,10 @@ function Content(){
                             <img src={alice} alt="Alice Lopes Santos"/>
                             <p>Alice Lopes Santos</p>
                         </div>
+                        <div className="angelina">
+                            <img src={angelina} alt="Angelina Durigan"/>
+                            <p>Angelina Durigan</p>
+                        </div>
                         <div className="gui">
                             <img src={gui} alt="Guilherme Felippe de Campos"/>  
                             <p>Guilherme Felippe de Campos</p>
@@ -86,8 +132,13 @@ function Content(){
                             <img src={joao} alt="João Guilherme Pereira dos Santos"/>
                             <p>João Guilherme Pereira dos Santos</p>
                         </div>
+                        <div className="virginia">
+                            <img src={virginia} alt="Virginia da Silva"/>
+                            <p>Virgina da Silva</p>
+                        </div>
                     </div>
                     <div className="creators-text">
+                        <img className="cotuca-logo" src={cotuca} alt="COTUCA Logo"/>
                         <p>
                         Hello! We are a group of five computer science students with a passion for technology and the transformative potential it offers. 
                         Hailing from Colégio Técnico de Campinas, our mission is simple yet ambitious: to change the world through technology.<br/>
@@ -97,6 +148,7 @@ function Content(){
                         Together, we are determined to leave our mark on the world by empowering people with technological tools, solving complex 
                         problems, and contributing to a brighter and more connected future. 
                         </p>
+                        <img className="team-logo" src={team} alt="The Tech Titans Logo"/>
                     </div>
                 </div>
             </section>
