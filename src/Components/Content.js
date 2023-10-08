@@ -1,6 +1,9 @@
 import React from "react";
 import '../Styles/Content.css';
 import bimo from '../images/Bimo.png'
+import gui from '../images/gui.png'
+import alice from '../images/alice.png'
+import joao from '../images/joao.png'
 
 function Content(){
     return(
@@ -16,6 +19,17 @@ function Content(){
                         <div className="moon"></div>
                     </div>
                 </div>
+            </section>
+            <section className="section-bimo">
+                <h2>Hello! I Am Bimo</h2>
+                <div className="balloon"><p>Hello, I'm Bimo, your personal guide to the intriguing universe of eclipses. I'm here to share with you the wonderful world of celestial 
+                   events that occur when the sun, the moon, and the Earth align in extraordinary ways.
+                   If you've ever wondered how eclipses work, what causes these cosmic phenomena, or how to best observe them, 
+                   I'm here to answer all your questions. With me, you'll have access to reliable and accessible information about solar and lunar eclipses.
+                   Join me on this cosmic exploration journey, where we'll unravel the mysteries of eclipses together. Be prepared to be amazed by the 
+                   beauty and splendor of these celestial events that have fascinated humanity for generations.
+                </p></div>
+                <img src={bimo} alt="Bimo"/>
             </section>
             <section className="section-about">
                 <h2>About Eclipse</h2>
@@ -57,7 +71,34 @@ function Content(){
                 </p>
             </section>
             <section className="section-creators">
-                <h2>About the Creators</h2>
+                <div className="section-creator">
+                    <h2>About the Creators</h2>
+                    <div className="creators">
+                        <div className="alice">
+                            <img src={alice} alt="Alice Lopes Santos"/>
+                            <p>Alice Lopes Santos</p>
+                        </div>
+                        <div className="gui">
+                            <img src={gui} alt="Guilherme Felippe de Campos"/>  
+                            <p>Guilherme Felippe de Campos</p>
+                        </div>
+                        <div className="joao">
+                            <img src={joao} alt="João Guilherme Pereira dos Santos"/>
+                            <p>João Guilherme Pereira dos Santos</p>
+                        </div>
+                    </div>
+                    <div className="creators-text">
+                        <p>
+                        Hello! We are a group of five computer science students with a passion for technology and the transformative potential it offers. 
+                        Hailing from Colégio Técnico de Campinas, our mission is simple yet ambitious: to change the world through technology.<br/>
+                        We believe that innovation and knowledge can be powerful drivers to make a positive impact on society. We are committed to exploring 
+                        all the possibilities that computer science provides, from developing innovative software to technological solutions that address global 
+                        challenges.<br/>
+                        Together, we are determined to leave our mark on the world by empowering people with technological tools, solving complex 
+                        problems, and contributing to a brighter and more connected future. 
+                        </p>
+                    </div>
+                </div>
             </section>
         </main>
     );

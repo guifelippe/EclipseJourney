@@ -5,7 +5,7 @@ function Footer()
 {
     return(
         <footer className="footer-container">
-            <p className="footer-text">&copy; {new Date().getFullYear()} Eclipse Explorers 🚀</p>
+            <p className="footer-text">🚀 &copy; {new Date().getFullYear()} The Tech Titans: Eclipse Explorers 🚀</p>
         </footer>
     )
 }
