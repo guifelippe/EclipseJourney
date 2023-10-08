@@ -133,8 +133,8 @@ function Content(){
                             <p>João Guilherme Pereira dos Santos</p>
                         </div>
                         <div className="virginia">
-                            <img src={virginia} alt="Virginia da Silva"/>
-                            <p>Virgina da Silva</p>
+                            <img src={virginia} alt="Virgínia da Silva"/>
+                            <p>Virgína da Silva</p>
                         </div>
                     </div>
                     <div className="creators-text">
