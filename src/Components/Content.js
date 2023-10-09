@@ -96,18 +96,21 @@ function Content(){
                 <div className="equipaments">
                     <div className="solar-glasses">
                         <img src={solar_glasses} alt="Solar Eclipse Glasses"/>
-                        <p></p>
+                        <p>Solar Eclipse Glasses: Protect your eyes from intense solar radiation with 
+                            glasses certified for solar eclipses. They allow you to safely observe the sun during partial solar eclipses.</p>
                     </div>
                     <div className="binoculars">
-                        <p></p>
+                        <p>Binoculars or Telescope: Explore the deeper details of eclipses with binoculars or a telescope equipped with suitable solar filters. 
+                            This provides a clearer view of the details of the solar surface and majestic solar corona during total eclipses.</p>
                         <img src={binoculars} alt="Binoculars"/>
                     </div>
                     <div className="tripod">
                         <img src={tripod} alt="Tripod"/>
-                        <p></p>
+                        <p>Tripod: Keep your observation steady and shake-free with a reliable tripod, especially for long-duration events.</p>
                     </div>
                     <div className="camera">
-                        <p></p>
+                        <p>Camera and Telephoto Lens: If you want to capture the beauty of an eclipse, a digital camera with a telephoto lens is essential. You can even 
+                           use a smartphone with a telephoto lens to get good results.</p>
                         <img src={camera} alt="Camera"/>
                     </div>
                 </div>

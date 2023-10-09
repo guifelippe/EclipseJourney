@@ -369,3 +369,43 @@ section p {
   font-size: 18px;
   width: 50%;
 }
+
+.section-magic .equipaments .solar-glasses p 
+{
+  margin-top: 150px;
+  align-items: end;
+}
+
+.section-magic .equipaments .binoculars p
+{
+  margin-top: 100px;
+  margin-left: 450px;
+}
+
+.section-magic .equipaments .binoculars img 
+{
+  margin-top: -150px;
+}
+
+.section-magic .equipaments .solar-glasses img
+{
+  margin-top: 30px;
+  float: left;
+}
+
+
+.section-magic .equipaments .tripod img
+{
+  float: left;
+}
+
+.section-magic .equipaments .tripod p
+{
+  margin-left: 21%;
+}
+
+.section-magic .equipaments .camera p
+{
+
+  margin-left: 490px;
+}
