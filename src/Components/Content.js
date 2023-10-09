@@ -14,6 +14,7 @@ import binoculars from '../images/binoculars.jpg'
 import tripod from '../images/tripod.jpg'
 import camera from '../images/camera.jpg'
 import cotuca from '../images/COTUCA_logo.png'
+import eclipse_video from '../video/eclipse.mp4'
 
 function Content(){
     return(
@@ -51,6 +52,7 @@ function Content(){
                     comes between the Sun and the Moon, casting a shadow that gradually covers our natural satellite. Observing eclipses provides a unique opportunity 
                     to witness the grandeur of the cosmos and comprehend the celestial movements that shape our universe
                 </p>
+                <video classname="video" src={eclipse_video} controls/>
             </section>
             <section className="section-phases" id="Phases">
                 <h2>Eclipse Phases</h2>

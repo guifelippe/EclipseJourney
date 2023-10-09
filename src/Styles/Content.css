@@ -129,6 +129,11 @@ section p {
   justify-content: space-between;
 }
 
+.section-about video 
+{
+  margin-right: 200px; 
+}
+
 .section-bimo h2
 {
   width: 25%;
@@ -183,7 +188,6 @@ section p {
    width: 100%;
    height: auto;
    background-color: #001f3f;
-   justify-content: flex-start;
    margin-top: 8%;
 }
 
@@ -374,6 +378,7 @@ section p {
 {
   margin-top: 150px;
   align-items: end;
+  margin-left: 21%;
 }
 
 .section-magic .equipaments .binoculars p
